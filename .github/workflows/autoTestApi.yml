@@ -12,6 +12,9 @@ on:
     # Anda bisa mengubahnya, misal '0 */12 * * *' untuk setiap 12 jam.
     - cron: '0 */6 * * *'
 
+permissions:
+  contents: write
+  
 # Daftar pekerjaan yang akan dilakukan oleh workflow
 jobs:
   run-api-script:
