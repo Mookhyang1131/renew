@@ -77,7 +77,15 @@ def main():
         'https://graph.microsoft.com/v1.0/me/drive/root',
         'https://graph.microsoft.com/v1.0/me/messages',
         'https://graph.microsoft.com/v1.0/me/mailFolders',
-        'https://graph.microsoft.com/v1.0/me/outlook/masterCategories'
+        'https://graph.microsoft.com/v1.0/me/outlook/masterCategories',
+        'https://graph.microsoft.com/v1.0/me/calendar/events?$top=10',
+        'https://graph.microsoft.com/v1.0/me/todo/lists',
+        'https://graph.microsoft.com/v1.0/sites/root',
+        'https://graph.microsoft.com/v1.0/me/joinedTeams',
+        'https://graph.microsoft.com/v1.0/me/onenote/notebooks',
+        'https://graph.microsoft.com/v1.0/me/planner/plans',
+        'https://graph.microsoft.com/v1.0/me/presence',
+        'https://graph.microsoft.com/v1.0/me/managedDevices'
     ]
     
     print("\n🚀 Memulai panggilan API...")
